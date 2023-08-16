@@ -4,6 +4,4 @@ visionOS Snow Effect using ImmersiveView.
 
 See commit history for steps & recreation.
 
-<div align="center">
-  <video src="https://github.com/miffycs/iSnow/raw/master/demo/demo-cut.mov" width="400" />
-</div>
+https://github.com/miffycs/iSnow/assets/38473057/ae59aa91-5d07-4112-b74f-3d94eb04d094
