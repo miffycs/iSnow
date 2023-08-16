@@ -19,14 +19,17 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+            Text("❄️")
+                .font(.system(size: 100))
+                .padding(.bottom, 25)
+            
+            Text("iSnow")
+                .font(.system(size: 50))
 
-            Text("Hello, world!")
-
-            Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
+            Toggle("Try me", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
-                .padding(.top, 50)
+                .font(.system(size: 30))
+                .padding(.top, 25)
         }
         .padding()
         .onChange(of: showImmersiveSpace) { _, newValue in
